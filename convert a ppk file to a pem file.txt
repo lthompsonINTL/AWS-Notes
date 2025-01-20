@@ -1,0 +1,30 @@
+Windows - convert a .ppk file to a .pem file
+
+Start PuTTYgen. For Actions, choose Load, and then navigate to your .ppk file.
+
+Choose the .ppk file, and then choose Open.
+    
+
+
+(Optional) For Key passphrase, enter a passphrase. For Confirm passphrase, re-enter your passphrase.
+Note: Although a passphrase isn't required, it's a best practice to specify one. This is a security measure to protect the private key from unauthorized use. A passphrase makes automation difficult, because users must manually log in to an instance or copy files to an instance.
+    
+
+
+
+From the menu at the top of the PuTTY Key Generator, choose Conversions, Export OpenSSH Key.
+    Note: If you didn't enter a passphrase, then you receive a PuTTYgen warning. Choose Yes.
+    
+
+
+Name the file and add the .pem extension.
+    
+
+
+Choose Save.
+
+
+
+
+refence
+https://repost.aws/knowledge-center/ec2-ppk-pem-conversion
